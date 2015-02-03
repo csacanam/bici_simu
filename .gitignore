@@ -1,28 +1,21 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+*_m.h
+*_m.cc
+*.pdb
+*.idb
+*.ilk
 *.exe
-*.out
-*.app
+*.lib
+*.dll
+.pydevproject
+.settings
+.tstamp
+.tkenvrc
+.tmp*
+env.sh
+**/Makefile
+Makefile.vc
+**/Makefile.vc
+out
+Makefile
+results
+**.vci
