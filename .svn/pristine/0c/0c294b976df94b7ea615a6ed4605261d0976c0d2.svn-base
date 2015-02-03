@@ -1,0 +1,345 @@
+version 2
+run General-0-20141002-14:29:13-1368
+attr configname General
+attr datetime 20141002-14:29:13
+attr experiment General
+attr inifile main_Network.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network Main_Network
+attr processid 1368
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar Main_Network.node[0].nic.mac 	nbTxFrames 	27
+scalar Main_Network.node[0].nic.mac 	nbRxFrames 	47
+scalar Main_Network.node[0].nic.mac 	nbDroppedFrames 	0
+scalar Main_Network.node[0].nic.mac 	nbMissedAcks 	0
+scalar Main_Network.node[0].nic.mac 	nbRecvdAcks 	0
+scalar Main_Network.node[0].nic.mac 	nbTxAcks 	0
+scalar Main_Network.node[0].nic.mac 	nbDuplicates 	0
+scalar Main_Network.node[0].nic.mac 	meanBackoff 	0.00079407407407407
+scalar Main_Network.node[0].nic.mac 	nbBackoffs 	27
+scalar Main_Network.node[0].nic.mac 	backoffDurations 	0.02144
+scalar Main_Network.node[0].nic.phy 	nbFramesWithInterference 	0
+scalar Main_Network.node[0].nic.phy 	nbFramesWithoutInterference 	47
+scalar Main_Network.node[0].nic.phy 	nbFramesWithInterferencePartial 	0
+scalar Main_Network.node[0].nic.phy 	nbFramesWithoutInterferencePartial 	0
+scalar Main_Network.node[0].nic.phy 	nbFramesWithInterferenceDropped 	0
+scalar Main_Network.node[0].nic.phy 	nbFramesWithoutInterferenceDropped 	0
+scalar Main_Network.node[0].batteryStats 	nominal 	1187988120
+attr unit  mW-s
+scalar Main_Network.node[0].batteryStats 	total 	8508.7654089928
+attr unit  mW-s
+scalar Main_Network.node[0].batteryStats 	lifetime 	-1
+attr unit  s
+scalar Main_Network.node[0].batteryStats 	"Mean power consumption" 	62.037738071634
+attr unit  mW
+scalar Main_Network.node[0] 	arrival_time:last 	nan
+attr source  arrival_time
+attr title  "arrival time, last"
+statistic Main_Network.node[0] 	received_broadcast:stats
+field count 0
+field mean 0
+field stddev nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  received_broadcast
+attr title  "received broadcast, stats"
+statistic Main_Network.node[0] 	yPosition:stats
+field count 74
+field mean 209.2657732882
+field stddev 155.03606445786
+field sum 15485.667223327
+field sqrsum 4995261.3600017
+field min 0
+field max 457.52299649266
+attr interpolationmode  none
+attr source  yposition
+attr title  "position y, stats"
+statistic Main_Network.node[0] 	xPosition:stats
+field count 74
+field mean 6.0726834090156
+field stddev 16.927437742221
+field sum 449.37857226716
+field sqrsum 23646.218641898
+field min 0
+field max 77.358301534934
+attr interpolationmode  none
+attr source  xposition
+attr title  "position x, stats"
+statistic Main_Network.node[0] 	receivedPackages:stats
+field count 47
+field mean 12.829787234043
+field stddev 8.0792787800595
+field sum 603
+field sqrsum 10739
+field min 1
+field max 27
+attr interpolationmode  none
+attr source  received
+attr title  "received package, stats"
+statistic Main_Network.node[0] 	sentPackages:stats
+field count 74
+field mean 13.256756756757
+field stddev 7.9932519670354
+field sum 981
+field sqrsum 17669
+field min 1
+field max 27
+attr interpolationmode  none
+attr source  sent
+attr title  "sent package, stats"
+scalar Main_Network.node[1].nic.mac 	nbTxFrames 	27
+scalar Main_Network.node[1].nic.mac 	nbRxFrames 	53
+scalar Main_Network.node[1].nic.mac 	nbDroppedFrames 	0
+scalar Main_Network.node[1].nic.mac 	nbMissedAcks 	0
+scalar Main_Network.node[1].nic.mac 	nbRecvdAcks 	0
+scalar Main_Network.node[1].nic.mac 	nbTxAcks 	0
+scalar Main_Network.node[1].nic.mac 	nbDuplicates 	0
+scalar Main_Network.node[1].nic.mac 	meanBackoff 	0.0010074074074074
+scalar Main_Network.node[1].nic.mac 	nbBackoffs 	27
+scalar Main_Network.node[1].nic.mac 	backoffDurations 	0.0272
+scalar Main_Network.node[1].nic.phy 	nbFramesWithInterference 	0
+scalar Main_Network.node[1].nic.phy 	nbFramesWithoutInterference 	53
+scalar Main_Network.node[1].nic.phy 	nbFramesWithInterferencePartial 	0
+scalar Main_Network.node[1].nic.phy 	nbFramesWithoutInterferencePartial 	0
+scalar Main_Network.node[1].nic.phy 	nbFramesWithInterferenceDropped 	0
+scalar Main_Network.node[1].nic.phy 	nbFramesWithoutInterferenceDropped 	0
+scalar Main_Network.node[1].batteryStats 	nominal 	1187988120
+attr unit  mW-s
+scalar Main_Network.node[1].batteryStats 	total 	8508.7767930031
+attr unit  mW-s
+scalar Main_Network.node[1].batteryStats 	lifetime 	-1
+attr unit  s
+scalar Main_Network.node[1].batteryStats 	"Mean power consumption" 	62.037821072894
+attr unit  mW
+scalar Main_Network.node[1] 	arrival_time:last 	nan
+attr source  arrival_time
+attr title  "arrival time, last"
+statistic Main_Network.node[1] 	received_broadcast:stats
+field count 0
+field mean 0
+field stddev nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  received_broadcast
+attr title  "received broadcast, stats"
+statistic Main_Network.node[1] 	yPosition:stats
+field count 80
+field mean 370.21161866191
+field stddev 215.75779480979
+field sum 29616.929492953
+field sqrsum 14642094.063055
+field min 0
+field max 560
+attr interpolationmode  none
+attr source  yposition
+attr title  "position y, stats"
+statistic Main_Network.node[1] 	xPosition:stats
+field count 80
+field mean 51.94070254352
+field stddev 136.39842459722
+field sum 4155.2562034816
+field sqrsum 1685584.8148328
+field min 0
+field max 597.10922964522
+attr interpolationmode  none
+attr source  xposition
+attr title  "position x, stats"
+statistic Main_Network.node[1] 	receivedPackages:stats
+field count 53
+field mean 11.641509433962
+field stddev 7.0222019876045
+field sum 617
+field sqrsum 9747
+field min 2
+field max 27
+attr interpolationmode  none
+attr source  received
+attr title  "received package, stats"
+statistic Main_Network.node[1] 	sentPackages:stats
+field count 80
+field mean 12.4375
+field stddev 7.3791422608816
+field sum 995
+field sqrsum 16677
+field min 1
+field max 27
+attr interpolationmode  none
+attr source  sent
+attr title  "sent package, stats"
+scalar Main_Network.node[2].nic.mac 	nbTxFrames 	27
+scalar Main_Network.node[2].nic.mac 	nbRxFrames 	38
+scalar Main_Network.node[2].nic.mac 	nbDroppedFrames 	0
+scalar Main_Network.node[2].nic.mac 	nbMissedAcks 	0
+scalar Main_Network.node[2].nic.mac 	nbRecvdAcks 	0
+scalar Main_Network.node[2].nic.mac 	nbTxAcks 	0
+scalar Main_Network.node[2].nic.mac 	nbDuplicates 	0
+scalar Main_Network.node[2].nic.mac 	meanBackoff 	0.0010666666666667
+scalar Main_Network.node[2].nic.mac 	nbBackoffs 	27
+scalar Main_Network.node[2].nic.mac 	backoffDurations 	0.0288
+scalar Main_Network.node[2].nic.phy 	nbFramesWithInterference 	0
+scalar Main_Network.node[2].nic.phy 	nbFramesWithoutInterference 	38
+scalar Main_Network.node[2].nic.phy 	nbFramesWithInterferencePartial 	0
+scalar Main_Network.node[2].nic.phy 	nbFramesWithoutInterferencePartial 	0
+scalar Main_Network.node[2].nic.phy 	nbFramesWithInterferenceDropped 	0
+scalar Main_Network.node[2].nic.phy 	nbFramesWithoutInterferenceDropped 	0
+scalar Main_Network.node[2].batteryStats 	nominal 	1187988120
+attr unit  mW-s
+scalar Main_Network.node[2].batteryStats 	total 	8508.765409708
+attr unit  mW-s
+scalar Main_Network.node[2].batteryStats 	lifetime 	-1
+attr unit  s
+scalar Main_Network.node[2].batteryStats 	"Mean power consumption" 	62.037738076849
+attr unit  mW
+scalar Main_Network.node[2] 	arrival_time:last 	nan
+attr source  arrival_time
+attr title  "arrival time, last"
+statistic Main_Network.node[2] 	received_broadcast:stats
+field count 0
+field mean 0
+field stddev nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  received_broadcast
+attr title  "received broadcast, stats"
+statistic Main_Network.node[2] 	yPosition:stats
+field count 65
+field mean 409.72504667616
+field stddev 256.65195804837
+field sum 26632.128033951
+field sqrsum 15127544.46628
+field min 0
+field max 800
+attr interpolationmode  none
+attr source  yposition
+attr title  "position y, stats"
+statistic Main_Network.node[2] 	xPosition:stats
+field count 65
+field mean 111.55198549618
+field stddev 239.30316969299
+field sum 7250.8790572517
+field sqrsum 4473874.4050363
+field min 0
+field max 800
+attr interpolationmode  none
+attr source  xposition
+attr title  "position x, stats"
+statistic Main_Network.node[2] 	receivedPackages:stats
+field count 38
+field mean 9.5526315789474
+field stddev 7.424202089882
+field sum 363
+field sqrsum 5507
+field min 1
+field max 26
+attr interpolationmode  none
+attr source  received
+attr title  "received package, stats"
+statistic Main_Network.node[2] 	sentPackages:stats
+field count 65
+field mean 11.4
+field stddev 7.8954100590153
+field sum 741
+field sqrsum 12437
+field min 1
+field max 27
+attr interpolationmode  none
+attr source  sent
+attr title  "sent package, stats"
+scalar Main_Network.node[3].nic.mac 	nbTxFrames 	27
+scalar Main_Network.node[3].nic.mac 	nbRxFrames 	38
+scalar Main_Network.node[3].nic.mac 	nbDroppedFrames 	0
+scalar Main_Network.node[3].nic.mac 	nbMissedAcks 	0
+scalar Main_Network.node[3].nic.mac 	nbRecvdAcks 	0
+scalar Main_Network.node[3].nic.mac 	nbTxAcks 	0
+scalar Main_Network.node[3].nic.mac 	nbDuplicates 	0
+scalar Main_Network.node[3].nic.mac 	meanBackoff 	0.0011259259259259
+scalar Main_Network.node[3].nic.mac 	nbBackoffs 	27
+scalar Main_Network.node[3].nic.mac 	backoffDurations 	0.0304
+scalar Main_Network.node[3].nic.phy 	nbFramesWithInterference 	0
+scalar Main_Network.node[3].nic.phy 	nbFramesWithoutInterference 	38
+scalar Main_Network.node[3].nic.phy 	nbFramesWithInterferencePartial 	0
+scalar Main_Network.node[3].nic.phy 	nbFramesWithoutInterferencePartial 	0
+scalar Main_Network.node[3].nic.phy 	nbFramesWithInterferenceDropped 	0
+scalar Main_Network.node[3].nic.phy 	nbFramesWithoutInterferenceDropped 	0
+scalar Main_Network.node[3].batteryStats 	nominal 	1187988120
+attr unit  mW-s
+scalar Main_Network.node[3].batteryStats 	total 	8508.7654085159
+attr unit  mW-s
+scalar Main_Network.node[3].batteryStats 	lifetime 	-1
+attr unit  s
+scalar Main_Network.node[3].batteryStats 	"Mean power consumption" 	62.037738068157
+attr unit  mW
+scalar Main_Network.node[3] 	arrival_time:last 	nan
+attr source  arrival_time
+attr title  "arrival time, last"
+statistic Main_Network.node[3] 	received_broadcast:stats
+field count 0
+field mean 0
+field stddev nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  received_broadcast
+attr title  "received broadcast, stats"
+statistic Main_Network.node[3] 	yPosition:stats
+field count 65
+field mean 534.21860956265
+field stddev 247.23269368844
+field sum 34724.209621572
+field sqrsum 22462255.291219
+field min 0
+field max 720
+attr interpolationmode  none
+attr source  yposition
+attr title  "position y, stats"
+statistic Main_Network.node[3] 	xPosition:stats
+field count 65
+field mean 3.389493169993
+field stddev 17.37105087
+field sum 220.31705604955
+field sqrsum 20058.981289714
+field min 0
+field max 99.98545986481
+attr interpolationmode  none
+attr source  xposition
+attr title  "position x, stats"
+statistic Main_Network.node[3] 	receivedPackages:stats
+field count 38
+field mean 11.631578947368
+field stddev 8.6475150395049
+field sum 442
+field sqrsum 7908
+field min 1
+field max 27
+attr interpolationmode  none
+attr source  received
+attr title  "received package, stats"
+statistic Main_Network.node[3] 	sentPackages:stats
+field count 65
+field mean 12.615384615385
+field stddev 8.3790891280249
+field sum 820
+field sqrsum 14838
+field min 1
+field max 27
+attr interpolationmode  none
+attr source  sent
+attr title  "sent package, stats"

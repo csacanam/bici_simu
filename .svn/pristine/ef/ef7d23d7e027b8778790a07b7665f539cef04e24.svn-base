@@ -1,0 +1,98 @@
+file 33945 1412278200                                           
+version 2
+run General-0-20141002-14:29:13-1368
+attr configname General
+attr datetime 20141002-14:29:13
+attr experiment General
+attr inifile main_Network.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network Main_Network
+attr processid 1368
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 207  Main_Network.node[3]  sentPackages:vector  ETV
+attr interpolationmode  none
+attr source  sent
+attr title  "sent package, vector"
+vector 209  Main_Network.node[3]  xPosition:vector  ETV
+attr interpolationmode  none
+attr source  xposition
+attr title  "position x, vector"
+vector 210  Main_Network.node[3]  yPosition:vector  ETV
+attr interpolationmode  none
+attr source  yposition
+attr title  "position y, vector"
+vector 192  Main_Network.node[0]  sentPackages:vector  ETV
+attr interpolationmode  none
+attr source  sent
+attr title  "sent package, vector"
+vector 194  Main_Network.node[0]  xPosition:vector  ETV
+attr interpolationmode  none
+attr source  xposition
+attr title  "position x, vector"
+vector 195  Main_Network.node[0]  yPosition:vector  ETV
+attr interpolationmode  none
+attr source  yposition
+attr title  "position y, vector"
+vector 208  Main_Network.node[3]  receivedPackages:vector  ETV
+attr interpolationmode  none
+attr source  received
+attr title  "received package, vector"
+vector 202  Main_Network.node[2]  sentPackages:vector  ETV
+attr interpolationmode  none
+attr source  sent
+attr title  "sent package, vector"
+vector 204  Main_Network.node[2]  xPosition:vector  ETV
+attr interpolationmode  none
+attr source  xposition
+attr title  "position x, vector"
+vector 205  Main_Network.node[2]  yPosition:vector  ETV
+attr interpolationmode  none
+attr source  yposition
+attr title  "position y, vector"
+vector 193  Main_Network.node[0]  receivedPackages:vector  ETV
+attr interpolationmode  none
+attr source  received
+attr title  "received package, vector"
+vector 197  Main_Network.node[1]  sentPackages:vector  ETV
+attr interpolationmode  none
+attr source  sent
+attr title  "sent package, vector"
+vector 199  Main_Network.node[1]  xPosition:vector  ETV
+attr interpolationmode  none
+attr source  xposition
+attr title  "position x, vector"
+vector 200  Main_Network.node[1]  yPosition:vector  ETV
+attr interpolationmode  none
+attr source  yposition
+attr title  "position y, vector"
+vector 203  Main_Network.node[2]  receivedPackages:vector  ETV
+attr interpolationmode  none
+attr source  received
+attr title  "received package, vector"
+vector 198  Main_Network.node[1]  receivedPackages:vector  ETV
+attr interpolationmode  none
+attr source  received
+attr title  "received package, vector"
+192	2677 2031 13 2850 5.488135023042 135.488135023042 74 1 27 981 17669
+193	4708 1286 55 2845 6.034473319886 135.454710847333 47 1 27 603 10739
+194	5994 2152 13 2850 5.488135023042 135.488135023042 74 0 77.358301534934 449.37857226716 23646.218641898
+195	8146 2845 13 2850 5.488135023042 135.488135023042 74 0 457.52299649266 15485.667223327 4995261.3600017
+197	10991 2180 58 2898 7.151893649715 137.151893649715 80 1 27 995 16677
+198	13171 1435 121 2891 10.45375130753 136.033513580308 53 2 27 617 9747
+199	14606 2328 58 2898 7.151893649715 137.151893649715 80 0 597.10922964522 4155.2562034816 1685584.8148328
+200	16934 2952 58 2898 7.151893649715 137.151893649715 80 0 560 29616.929492953 14642094.063055
+202	19886 1759 32 2873 6.027633703779 136.027633703779 65 1 27 741 12437
+203	21645 1014 80 2822 7.158412916566 132.156493022545 38 1 26 363 5507
+204	22659 1930 32 2873 6.027633703779 136.027633703779 65 0 800 7250.8790572517 4473874.4050363
+205	24589 2323 32 2873 6.027633703779 136.027633703779 65 0 800 26632.128033951 15127544.46628
+207	26912 1767 1 2868 5.448831773828 135.493694098329 65 1 27 820 14838
+208	28679 1025 29 2868 5.493694898613 135.493694098329 38 1 27 442 7908
+209	29704 1785 1 2868 5.448831773828 135.493694098329 65 0 99.98545986481 220.31705604955 20058.981289714
+210	31489 2456 1 2868 5.448831773828 135.493694098329 65 0 720 34724.209621572 22462255.291219
